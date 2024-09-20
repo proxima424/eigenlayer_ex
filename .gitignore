@@ -1,0 +1,48 @@
+# Elixir-specific
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+erl_crash.dump
+*.ez
+*.beam
+/config/*.secret.exs
+.elixir_ls/
+
+# Environment variables
+.env
+
+# Temporary files
+*.swp
+*~
+
+# macOS-specific
+.DS_Store
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Compiled output
+/priv/static/
+
+# Mix artifact
+/mix.lock
+
+# Node modules (if using assets)
+/assets/node_modules/
+
+# Database files
+*.db
+*.sqlite3
+
+# Temporary files directory
+/tmp/
+
+# Custom
+/custom_ignored_directory/
+custom_ignored_file.txt
